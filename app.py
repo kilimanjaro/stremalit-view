@@ -12,5 +12,5 @@ svview = pd.Series(view)
 svview
 
 from pydatasets import data
-iris = data('iris)
+iris = data('iris')
 iris            
