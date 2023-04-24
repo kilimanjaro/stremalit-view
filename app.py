@@ -11,8 +11,6 @@ st.bar_chart(view)
 svview = pd.Series(view)
 svview
 
-from sklearn.preprocessing import OneHotEncoder
-onehot_encoder = OneHotEncoder()
-raw_data_cat_onehot = onehot_encoder.fit_transform(raw_data_cat)
-print(raw_data_cat_onehot.toarray()[:10])
-print(onehot_encoder.categories_)
+from pydatasets import data
+iris = data('iris)
+iris            
