@@ -11,6 +11,6 @@ st.bar_chart(view)
 svview = pd.Series(view)
 svview
 
-from pydataset import data
-iris = data('iris')
+import pydataset.data
+iris = pydataset.data('iris')
 iris            
